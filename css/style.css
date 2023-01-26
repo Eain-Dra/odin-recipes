@@ -1,0 +1,56 @@
+body{
+    background-color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: brown;
+}
+h1, .me{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.recipes{
+    list-style-type: none;
+    text-align: center;
+    width:25%;
+    margin:0 auto;
+}
+a:hover{
+    background-color: rgb(255, 49, 84);
+}
+.me{
+    border:1px dashed rgb(255, 49, 84);
+    border-radius: 50px;
+    width:60%;
+    margin:50px auto;
+}
+.egg, .steak, .tuna{
+    padding-top: 25%;
+    padding-bottom: 25%;
+    padding-left: 0;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid brown;
+    border-radius: 10px;
+    margin-bottom:15px;
+}
+
+.egg{
+    background-image: url("../img/eggplant.jpg");
+}
+.steak{
+    background-image: url("../img/steak.jpg");
+}
+.tuna{
+    background-image: url("../img/tuna.jpg");
+}
+.img{
+    width:700px; 
+    height:500px; 
+    display: block;
+    margin-left:auto; 
+    margin-right:auto;
+}
